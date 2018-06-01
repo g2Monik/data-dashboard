@@ -7,17 +7,16 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Data Dashboard</title>
   </head>
-  <!-- LOGIN -->
-<div id='login'>
   <!-- BODY -->
   <body>
+    <!-- LOGIN -->
+<!--    <div id='login'> -->
     <!-- HEADER ....USUARIO Y LOGO -->
     <header>
       <div id='firstsection'>
         <img id='imageuser' src="assets/images/Mujer3.jpg" alt="">
         <img id='logolab' src="assets/images/LaboratoriaLogo.png" alt="">
       </div>
-
       <!-- HEADER ....MENU -->
       <section id='sections'>
         <a class='menu' href='#statistics'>ESTADISTICAS</a>
@@ -26,45 +25,48 @@
       </section>
       <hr>
     </header>
-
     <!-- MAIN -->
     <main>
-      <section  id='container'>
-        <div class='statistics'>
+      <section>
+        <div id="section1">
+        </div>
+        <div id='container' class='statistics'>
           <A  id='statistics' name='statistics'> &lt ESTADISTICAS &gt</A>
-          <div id='chart1.1'>Estudiantes Activas</div>
-          <div id='chart1.2'>Porcentaje no activas</div>
-          <div id='chart1.3'>Cantidad y % estudantes exitosas</div>
-          <div id='chart1.4'>Estudiantes satisfechas</div>
+          <div class='chart'>Estudiantes Activas</div>
+          <div class='chart'>Porcentaje no activas</div>
+          <div class='chart'>Cantidad y % estudantes exitosas</div>
+          <div class='chart'>Estudiantes satisfechas</div>
         </div>
       </section>
-      <section id='container1'>
-        <div class='location'>
+      <section>
+        <div  id='container1' class='location'>
           <A id='location' name='location'> &lt SEDES &gt</A>
-          <div id='chart2.1'>Guadalajara</div>
-          <div id='chart2.2'>Ciudad de Mexico</div>
-          <div id='chart2.3'>Chile</div>
-          <div id='chart2.4'>Peru</div>
+          <div class='chart'>Arequipa</div>
+          <div class='chart'>Ciudad de Mexico</div>
+          <div class='chart'>Chile</div>
+          <div class='chart'>Peru</div>
         </div>
       </section>
-      <section id='container2'>
-        <div class='coaches'>
+      <section>
+        <div  id='container2' class='coaches'>
           <A id='coaches' name='coaches'> &lt COACHES &gt</A>
-          <div id='chart3.3'>Promedio profesores</div>
-          <div id='chart3.4'>Promedio Jedi Masters</div>
+          <div class='chart'>Promedio profesores</div>
+          <div class='chart'>Promedio profesores por generacion</div>
+          <div class='chart'>Promedio Jedi Masters</div>
+          <div class='chart'>Promedio Jedi por generacion</div>
         </div>
       </section>
-  </main>
+   </main>
+  </div>
   <!-- FOTTER -->
   <footer>
     <div class="copy">
       <small>Copyright &copy; G2Monik&AlexD 2018</small>
-    </div>
+<!--  </div> -->
   </footer>
    <!-- Base de datos -->
    <script src="./js/data.js"></script>
    <!-- JS -->
    <script src="./js/app.js"></script>
  </body>
-</div>
 </html>

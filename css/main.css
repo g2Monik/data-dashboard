@@ -53,6 +53,66 @@ hr {
   border: 1px;
   height: 6px;
   position: relative;
-  top: 0;
   width: 100%;
+}
+
+/* Main */
+#container, #container1, #container2  {
+  background-color: #ECF0F1;
+  position: relative;
+  width: 100%;
+}
+
+#container {
+  height: 1000px;
+  top: 20vh;
+}
+
+#container1 {
+  background-color: white;
+  height: 900px;
+}
+
+#container2 {
+  height: 900px;
+}
+
+#statistics, #location, #coaches {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  height: 3vh;
+  text-align: center;
+  top: 10vh;
+  padding: 5vh;
+  width: 100%;
+}
+
+.chart {
+  display: inline-block;
+  height: 300px;
+  left: 5%;
+  margin: 5vh;
+  position: relative;
+  width: 550px;
+  border: 3px solid black;
+}
+
+/* Footer */
+footer {
+  background-color: #A6ACAF;
+  display: inline-block;
+  height: 13vh;
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+
+.copy {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 4vh;
+  text-align: center
 }
