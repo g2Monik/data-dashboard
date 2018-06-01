@@ -1,3 +1,58 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  margin: 0;
+}
+/* Header */
+header {
+  background-color: #E1E1E1;
+  height: 20vh;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#firstsection {
+  display: inline-block;
+  width: 30%;
+}
+
+#imageuser {
+  border-radius: 50%;
+  display: inline-block;
+  left: 7%;
+  padding: 10px;
+  position: relative;
+  width: 100px;
+}
+
+#logolab {
+  display: inline-block;
+  left: 20%;
+  padding-bottom: 8%;
+  position: relative;
+}
+
+#sections {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  left: 42%;
+  position: absolute;
+  top: 41%;
+  width: 50%;
+}
+
+.menu {
+  color: black;
+  padding: 30px;
+  text-decoration: none;
+}
+
+hr {
+  background-color: #A6ACAF;
+  border: 1px;
+  height: 6px;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
